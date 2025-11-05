@@ -22,18 +22,7 @@ class IndexPage extends Tarakan.Component {
     };
 
     applyAd(newProducts: any[]) {
-        if (newProducts.length < 10) {
-            return newProducts;
-        }
-        const i = Math.trunc(Math.random() * (newProducts.length - 10) + 5);
-        return [
-            ...newProducts.slice(0, i),
-            {
-                ad: true,
-                url: AD_LINK,
-            },
-            ...newProducts.slice(i),
-        ];
+        return newProducts;
     }
 
     async fetchProducts() {
