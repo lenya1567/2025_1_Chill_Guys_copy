@@ -96,7 +96,7 @@ class IndexPage extends Tarakan.Component {
                             }
                         />
                     )}
-                    <h1 className={`index-page__main-h1`}>Весенние хиты</h1>
+                    <h1 className={`index-page__main-h1`}>Хиты продаж</h1>
                     <div className={`index-page__cards-container`}>
                         {this.state.products.map((item: any) =>
                             !item.ad && !item.end ? (
