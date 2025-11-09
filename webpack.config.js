@@ -15,8 +15,7 @@ export default {
     plugins: [
         new HtmlBundlerPlugin({
             entry: {
-                index: './public/index.html',
-                sw: "./public/sw.ts"
+                index: './public/index.html'
             },
             favicon: "./public/favicon.ico",
             manifest: "./public/manifest.webmanifest"

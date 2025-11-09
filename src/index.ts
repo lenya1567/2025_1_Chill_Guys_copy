@@ -55,12 +55,4 @@ app.addStore("user", UserStore);
 app.addStore("products", ProductsStore);
 app.addStore("csat", CSATStore);
 
-// SW
-async function setupSW() {
-    if ("serviceWorker" in navigator) {
-        await navigator.serviceWorker.register("/sw.js", { scope: "/" });
-    }
-}
-
-setupSW();
 app.render(root);
