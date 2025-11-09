@@ -198,11 +198,11 @@ class SearchPage extends Tarakan.Component {
                                         },
                                         {
                                             key: "rating_asc",
-                                            name: "Сначала c высоким рейтингом",
+                                            name: "Сначала с низким рейтингом",
                                         },
                                         {
                                             key: "rating_desc",
-                                            name: "Сначала с низким рейтингом",
+                                            name: "Сначала c высоким рейтингом",
                                         },
                                     ]}
                                 />
